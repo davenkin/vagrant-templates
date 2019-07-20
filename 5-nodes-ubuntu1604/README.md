@@ -1,4 +1,4 @@
-- 3 nodes ubuntu 1804 cluster, ip address refer to Vagrantfile
+- 5 nodes ubuntu 1604 cluster, ip address refer to Vagrantfile
 - network: private(host and vm can access each other)
 - memory: 8096
 - cpu: 4
