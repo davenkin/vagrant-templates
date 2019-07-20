@@ -4,4 +4,5 @@
 | --- | --- |
 |最简单的Linux单机|1-bare-centos7<br/>1-bare-ubuntu1604<br/>1-bare-ubuntu1804|
 |主虚互访的Linux单机|1-static-ip-centos7<br/>1-static-ip-ubuntu1604<br>1-static-ip-ubuntu1804|
-|双节点集群|2-nodes-centos7|
+|2节点集群|2-nodes-centos7<br/>2-nodes-ubuntu1604<br/>2-nodes-ubuntu1804|
+|3节点集群|3-nodes-centos7<br/>3-nodes-ubuntu1604<br/>3-nodes-ubuntu1804|
