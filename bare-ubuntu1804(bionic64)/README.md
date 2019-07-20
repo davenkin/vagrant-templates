@@ -1,0 +1,8 @@
+- The simplest ubuntu1804(bionic64)
+- network: NAT
+- memory: 2048
+- cpu: 2
+- start: `vagrant up`
+- ssh: `vagrant ssh`
+- destroy: `vagrant destroy -f`
+- halt: `vagrant halt`
