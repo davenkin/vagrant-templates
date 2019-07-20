@@ -1,0 +1,12 @@
+- 5 nodes centos7 cluster, ip address refer to Vagrantfile
+- network: private(host and vm can access each other)
+- memory: 8096
+- cpu: 4
+- start: `./start.sh`
+- ssh to node 1:  `./login-node1.sh`
+- ssh to node 2:  `./login-node2.sh`
+- ssh to node 3:  `./login-node3.sh`
+- ssh to node 4:  `./login-node4.sh`
+- ssh to node 5:  `./login-node5.sh`
+- destroy: `./destroy.sh`
+- your own public key uploaded to the vm to enable generic SSH
