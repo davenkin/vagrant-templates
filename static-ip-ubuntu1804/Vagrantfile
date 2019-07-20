@@ -1,12 +1,12 @@
-STATIC_IP="192.168.1.2"
+STATIC_IP="192.168.1.4"
 
 Vagrant.configure("2") do |config|
-  config.vm.box = "centos/7"
+  config.vm.box = "ubuntu/bionic64"
   config.vm.network "private_network", ip: STATIC_IP
   config.vm.provider "virtualbox" do |v|
     v.memory = 8192
     v.cpus = 4
-    v.name = "vagrant-centos-"+STATIC_IP
+    v.name = "vagant-ubuntu1804-"+STATIC_IP
   end
 
   config.vm.provision "file", source: "~/.ssh/id_rsa.pub", destination: "~/.ssh/my_id_rsa.pub"

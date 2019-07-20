@@ -1,4 +1,4 @@
-- The simplest centos/7 
+- The simplest ubuntu1604(xenial64) 
 - network: NAT
 - memory: 2048
 - cpu: 2

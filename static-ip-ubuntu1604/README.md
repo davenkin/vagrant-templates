@@ -1,4 +1,4 @@
-- Single centos/7 with static ip 192.168.1.2
+- Single ubuntu 1604 with static ip 192.168.1.3
 - network: private(host and vm can access each other)
 - memory: 8096
 - cpu: 4
