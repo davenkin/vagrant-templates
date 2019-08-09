@@ -1,4 +1,4 @@
-- 2 nodes centos7 cluster with DHCP private network and DNS enabled
+- 2 nodes ubuntu 1604 cluster with DHCP private network and DNS enabled
 - network: private(host and vm can access each other)
 - memory: 8096
 - cpu: 4

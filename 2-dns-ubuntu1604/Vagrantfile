@@ -6,9 +6,8 @@ tld="vagrant.local"
 hostName1=folderName+"-1."+tld
 hostName2=folderName+"-2."+tld
 
-
 Vagrant.configure("2") do |config|
-  config.vm.box = "centos/7"
+  config.vm.box = "ubuntu/xenial64"
   config.vm.provision "file", source: "~/.ssh/id_rsa.pub", destination: "~/.ssh/my_id_rsa.pub"
   config.vm.provision "shell", inline: "cat ~/.ssh/my_id_rsa.pub >> ~/.ssh/authorized_keys", privileged: false
 
