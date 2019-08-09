@@ -1,0 +1,10 @@
+- Single centos/7 with DHCP private network and DNS enabled
+- network: private(host and vm can access each other)
+- memory: 8096
+- cpu: 4
+- start: `./start.sh`
+- ssh: `vagrant ssh` or `./login.sh`
+- destroy: `./destroy.sh`
+- your own public key uploaded to the vm to enable generic SSH
+- DNS pattern:`[folderName].vagrant.local`, where folderName is the name of the folder containing Vagrantfile
+- Default DNS name: `1-dns-centos7.vagrant.local`
