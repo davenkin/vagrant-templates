@@ -2,7 +2,7 @@ folderName = dirname = File.basename(Dir.getwd)
 hostName=folderName+".vagrant.local"
 
 Vagrant.configure("2") do |config|
-  config.vm.box = "centos/7"
+  config.vm.box =  "ubuntu/xenial64"
 
   config.landrush.tld = 'vagrant.local'
   config.vm.hostname = hostName

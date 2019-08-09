@@ -1,4 +1,4 @@
-- Single centos/7 with DHCP private network and DNS enabled
+- Single ubuntu 1604 with DHCP private network and DNS enabled
 - network: private(host and vm can access each other)
 - memory: 8096
 - cpu: 4
