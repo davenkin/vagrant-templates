@@ -1,4 +1,5 @@
 - 该代码库为各种用途虚拟机的Vagrant模板.
+- 目录命名模板：`2-dns-centos7`表示由2台CentOS7虚拟机组成的集群，并且启用了DNS。
 - 使用前请安装[`landrush`](https://github.com/vagrant-landrush/landrush) Vagrant插件：
 
 ``` bash
