@@ -1,0 +1,11 @@
+- 5 nodes ubuntu 1804 cluster with DHCP private network and DNS enabled
+- network: private(host and vm can access each other)
+- memory: 8096
+- cpu: 4
+- start: `./start.sh`
+- ssh to node 1:  `./login-node1.sh`
+- ssh to node 2:  `./login-node2.sh`
+- ssh to node 3:  `./login-node3.sh`
+- destroy: `./destroy.sh`
+- your own public key uploaded to the vm to enable generic SSH
+- DNS name:`[folderName-n].vagrant.local`, where folderName is the name of the folder containing Vagrantfile
