@@ -1,0 +1,9 @@
+- 9 nodes centos7 cluster with DHCP private network and DNS enabled
+- network: private(host and vm can access each other)
+- memory: 8096
+- cpu: 4
+- start: `./start.sh`
+- ssh to node N:  `./login.sh N`,where N is node number, such `./login.sh 2`
+- destroy: `./destroy.sh`
+- your own public key uploaded to the vm to enable generic SSH
+- DNS name:`[folderName-n].vagrant.local`, where folderName is the name of the folder containing Vagrantfile
