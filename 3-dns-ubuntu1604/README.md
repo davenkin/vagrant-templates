@@ -3,9 +3,7 @@
 - memory: 8096
 - cpu: 4
 - start: `./start.sh`
-- ssh to node 1:  `./login-node1.sh`
-- ssh to node 2:  `./login-node2.sh`
-- ssh to node 3:  `./login-node3.sh`
 - destroy: `./destroy.sh`
+- ssh to node N:  `./login.sh N`,where N is node number, such `./login.sh 2`
 - your own public key uploaded to the vm to enable generic SSH
 - DNS name:`[folderName-n].vagrant.local`, where folderName is the name of the folder containing Vagrantfile
