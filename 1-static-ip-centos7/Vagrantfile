@@ -4,8 +4,8 @@ Vagrant.configure("2") do |config|
   config.vm.box = "centos/7"
   config.vm.network "private_network", ip: STATIC_IP
   config.vm.provider "virtualbox" do |v|
-    v.memory = 8192
-    v.cpus = 4
+    v.memory = 2048
+    v.cpus = 2
     v.name = "vagrant-centos-"+STATIC_IP
   end
 
