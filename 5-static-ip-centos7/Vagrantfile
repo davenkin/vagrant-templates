@@ -12,7 +12,7 @@ Vagrant.configure("2") do |config|
   config.vm.define "node1" do |node1|
       node1.vm.network "private_network", ip: NODE1_IP
       node1.vm.provider "virtualbox" do |v|
-          v.memory = 2048
+          v.memory = 4096
           v.cpus = 2
           v.name = "vagrant-centos7-x5-1-"+NODE1_IP
       end
@@ -21,7 +21,7 @@ Vagrant.configure("2") do |config|
   config.vm.define "node2" do |node2|
       node2.vm.network "private_network", ip: NODE2_IP
       node2.vm.provider "virtualbox" do |v|
-          v.memory = 2048
+          v.memory = 4096
           v.cpus = 2
           v.name = "vagrant-centos7-x5-2-"+NODE2_IP
       end
@@ -30,7 +30,7 @@ Vagrant.configure("2") do |config|
   config.vm.define "node3" do |node3|
       node3.vm.network "private_network", ip: NODE3_IP
       node3.vm.provider "virtualbox" do |v|
-          v.memory = 2048
+          v.memory = 4096
           v.cpus = 2
           v.name = "vagrant-centos7-x5-3-"+NODE3_IP
       end
@@ -39,7 +39,7 @@ Vagrant.configure("2") do |config|
   config.vm.define "node4" do |node4|
       node4.vm.network "private_network", ip: NODE4_IP
       node4.vm.provider "virtualbox" do |v|
-          v.memory = 2048
+          v.memory = 4096
           v.cpus = 2
           v.name = "vagrant-centos7-x5-4-"+NODE4_IP
       end
@@ -48,7 +48,7 @@ Vagrant.configure("2") do |config|
   config.vm.define "node5" do |node5|
       node5.vm.network "private_network", ip: NODE5_IP
       node5.vm.provider "virtualbox" do |v|
-          v.memory = 2048
+          v.memory = 4096
           v.cpus = 2
           v.name = "vagrant-centos7-x5-5-"+NODE5_IP
       end
