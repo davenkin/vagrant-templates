@@ -6,4 +6,4 @@
 - destroy: `./destroy.sh`
 - ssh to node N:  `./login.sh N`,where N is node number, such `./login.sh 2`
 - your own public key uploaded to the vm to enable generic SSH
-- DNS name:`[folderName-n].vagrant.local`, where folderName is the name of the folder containing Vagrantfile
+- DNS name:`[folderName-n].vagrant.local`, 比如`3-dns-ubuntu1804-1.vagrant.local`，where folderName is the name of the folder containing Vagrantfile
